@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Footprint - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="py-4">
+        <div id="logo" class="container">
+            <h1>Professional Footprint</h1>
+        </div>
+    </header>
+
+    <nav class="navbar md:navbar-expand bg-1 fg-2">
+        <div class="container">
+            <span class="navbar-brand md:d-none">Menu</span>
+            <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" aria-hidden="true"></span>
+            </button>
+            <dialog class="drawer drawer-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+                <div class="drawer-header">
+                    <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+                </div>
+                <div class="drawer-body">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects and Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="video.html">Videos</a>
+                        </li>
+                    </ul>
+                </div>
+            </dialog>
+        </div>
+    </nav>
+
+    <main class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <section id="introduction" class="md:col-8">
+                    <p class="introSubtitle">Software Engineer | Computer Science Student</p>
+                    <h2 class="introTitle">Hi, I'm Haroon Nasir</h2>
+                    <p class="introText">
+                        Motivated computer science professional passionate about solving
+                        real-world problems through innovative and scalable software
+                        solutions.
+                    </p>
+                    <div class="buttonRow">
+                        <a class="siteButton" href="projects.html">View My Projects</a>
+                        <a class="siteButton outlineButton" href="resume.html">View Resume</a>
+                    </div>
+                </section>
+
+                <section id="overview" class="md:col-4">
+                    <h2 class="sectionTitle">Overview</h2>
+                    <div class="panel">
+                        <p class="factLabel">Location</p>
+                        <p class="factValue">Chicago, United States</p>
+
+                        <p class="factLabel">Education</p>
+                        <p class="factValue">Computer Science, National Louis University (2023 - Present)</p>
+
+                        <p class="factLabel">Experience</p>
+                        <p class="factValue">2 Software Engineering Internships</p>
+
+                        <p class="factLabel">Focus</p>
+                        <p class="factValue">Full-Stack Development</p>
+                    </div>
+                </section>
+            </div>
+
+            <section id="experience" class="homeSection">
+                <h2 class="sectionTitle">Experience Highlights</h2>
+                <div class="row g-4">
+                    <div class="md:col-6">
+                        <div class="panel fullHeight">
+                            <h3 class="cardTitle">Software Engineering Intern</h3>
+                            <p class="cardDate">HIO, Chicago | Aug 2025 - Sep 2025</p>
+                            <p class="cardText">Built AI-powered document search and real-time chat features
+                                for property management platforms.</p>
+                            <ul class="tagList">
+                                <li>Pinecone</li>
+                                <li>OpenAI</li>
+                                <li>WebSocket</li>
+                                <li>Java</li>
+                            </ul>
+                            <a class="readMore" href="about.html#internships">Read more on my About page</a>
+                        </div>
+                    </div>
+
+                    <div class="md:col-6">
+                        <div class="panel fullHeight">
+                            <h3 class="cardTitle">Software Engineering Intern</h3>
+                            <p class="cardDate">Pekker LLC, Chicago | May 2024 - Aug 2024</p>
+                            <p class="cardText">Helped a team of 5 developers build and maintain a full-stack
+                                React.js web application.</p>
+                            <ul class="tagList">
+                                <li>React.js</li>
+                                <li>Express.js</li>
+                                <li>MongoDB</li>
+                                <li>Tailwind CSS</li>
+                            </ul>
+                            <a class="readMore" href="about.html#internships">Read more on my About page</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="row g-4 homeSection">
+                <section id="featuredProject" class="md:col-8">
+                    <h2 class="sectionTitle">Featured Project</h2>
+                    <div class="panel">
+                        <h3 class="cardTitle">AI Landing Page Generator</h3>
+                        <p class="cardDate">Frontend (RAG) Engineer | MHacks 2024</p>
+                        <p class="cardText">A full-stack app that uses AI to automatically generate custom
+                            landing pages from user input.</p>
+                        <ul class="tagList">
+                            <li>Next.js</li>
+                            <li>TypeScript</li>
+                            <li>Tailwind CSS</li>
+                            <li>Node.js</li>
+                        </ul>
+                        <a class="readMore" href="projects.html#projects">See all my projects</a>
+                    </div>
+                </section>
+
+                <section id="skills" class="md:col-4">
+                    <h2 class="sectionTitle">Skills</h2>
+                    <div class="panel">
+                        <p class="cardText">Full-stack development with a focus on JavaScript and Java.</p>
+                        <ul class="tagList bigTags">
+                            <li>JavaScript</li>
+                            <li>React.js</li>
+                            <li>Node.js</li>
+                            <li>Java</li>
+                        </ul>
+                        <a class="readMore" href="about.html#skills">See all my skills</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="py-4 text-center">
+        Copyright 2026 Professional Footprint
+    </footer>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+        crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
